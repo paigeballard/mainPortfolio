@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="images/favicon.ico">
+    <title>Paige Ballard</title>
+</head>
+<body>
+
+    <header class="header">
+        <div class="container header-flex">
+            <div class="logo"></div>
+            <ul class="main-menu">
+                <li><a href="resume.html">Resume</a></li>
+                <li><a href="#hero">About</a></li>
+                <li><a href="#gallery">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </header>
+
+    <section class="hero" id="hero">
+        <div class="container hero-flex">
+            <h1>Hi, I'm <span class="highlight"> Paige Ballard, </span><br> a Front End Developer</h1>
+            <p>and web designer with a passion for creating clean, intuitive, and visually compelling user experiences. With a background in graphic design and a natural eye for detail, I love crafting layouts that are not only beautiful but also effortless to navigate. Right now, I’m most excited by product design—digging deep into how something works so I can make it better, simpler, and more enjoyable. Wherever I land next, I want to know the product inside and out and be the person who can confidently share it with the world.</p>
+            <a href="resume.html" class="btn"></i>Resume</a>
+        </div>
+    </section>
+
+    <section class="gallery" id="gallery">
+        <div class="container gallery-flex">
+            <div class="gallery-item">
+                    <!-- <img src="images/portfolio1.jpg" alt="Portfolio Item 1"> -->
+                    <div class="card-body">
+                        <h5 class="card-title">Movie Search</h5>
+                        <p class="card-text">A recreation of the Amazon Prime Video interface with a focus on replicating layout and user interactivity. Integrated a free movie database API to dynamically fetch and display movie data. Developed a hero section that updates in real time based on selected or searched movies.</p>
+                        <a href="https://paigeballard.github.io/amazonPrimeVideo/" class="btn-project">View Project</a>
+                    </div>
+            </div>
+
+            <div class="gallery-item">
+                    <!-- <img src="images/portfolio2.jpg" alt="Portfolio Item 2"> -->
+                    <div class="card-body">
+                        <h5 class="card-title">Pinterest Dupe</h5>
+                        <p class="card-text">This project is a simplified clone of Pinterest, built using vanilla JavaScript, HTML, and CSS. It allows users to search for photos, view a curated photo grid, and interact with the UI for a Pinterest-like experience.</p>
+                        <a href="https://paigeballard.github.io/pinterestDupe/" class="btn-project">View Project</a>
+                      </div>
+            </div>
+
+            <div class="gallery-item">
+                    <!-- <img src="images/portfolio3.jpg" alt="Portfolio Item 3"> -->
+                    <div class="card-body">
+                        <h5 class="card-title">Travel Booking Interface</h5>
+                        <p class="card-text">This project mimics a travel booking interface. The project is built using HTML, CSS, and JavaScript, and it demonstrates responsive design, interactive navigation, and form handling.</p>
+                        <a href="https://paigeballard.github.io/costcoTravel/" class="btn-project">View Project</a>
+                      </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="contact" id="contact">
+        <div class="container contact-flex">
+            <div class="contact-info">
+                <h2>Contact Me</h2>
+                <p>If you have any questions or would like to get in touch, feel free to reach out!</p>
+            </div>
+            <div class="contact-form">
+                <form action="#" method="POST">
+                    <div class="contact-form">
+                        <input type="text" name="name" placeholder="Your Name" required>
+                        <input type="email" name="email" placeholder="Your Email" required>
+                    </div>
+                    <div class="contact-btn">
+                        <button type="submit" class="btn-contact">Send Message</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </section>
+    
+    <footer class="footer">
+        <div class="container footer-flex">
+            <p>&copy; 2025 Paige Ballard. All rights reserved.</p>
+            <div class="social-icons">
+                <a href="#"><i class="fab fa-instagram fa-2x highlight"></i></a>
+                <a href="https://github.com/paigeballard"><i class="fab fa-github fa-2x highlight"></i></a>
+                <a href="www.linkedin.com/in/paige-ballard"><i class="fab fa-linkedin fa-2x highlight"></i></a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="index.js"></script>
+</body>
+</html>

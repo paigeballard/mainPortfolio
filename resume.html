@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="images/favicon.ico">
+    <title>Resume</title>
+    <style>
+        body {
+          background: #F9FAFB;
+          color: #1E2A38;
+          font-family: 'Open Sans', sans-serif;
+          margin: 0;
+          padding: 2rem;
+          position: relative;
+        }
+        .resume-container {
+          max-width: 800px;
+          margin: 0 auto;
+          background: white;
+          padding: 2rem;
+          border-radius: 10px;
+          box-shadow: 0 2px 10px rgba(0,0,0,0.05);
+          position: relative;
+        }
+        h1, h2, h3 {
+          color: #3C91E6;
+        }
+        h1 {
+          font-size: 2rem;
+          /* margin-bottom: 0.2rem; */
+        }
+        h2 {
+          margin-top: 2rem;
+          font-size: 1.3rem;
+          border-bottom: 2px solid #C5E0D8;
+          padding-bottom: 0.2rem;
+        }
+        h3 {
+          font-size: 1.1rem;
+          margin-bottom: 0.2rem;
+        }
+        .section {
+          margin-bottom: 2rem;
+        }
+        .job-title {
+          font-weight: 600;
+        }
+        .date-location {
+          font-size: 0.9rem;
+          color: #2F4858;
+        }
+        ul {
+          padding-left: 1rem;
+        }
+        ul li {
+          margin-bottom: 0.4rem;
+        }
+        a {
+          color: #3C91E6;
+        }
+        /* .btn-bar {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-bottom: 1.5rem;
+    } */
+     .btn-bar {
+        margin-top: 1rem;
+     }
+    .btn-resume {
+      padding: 5px 10px;
+      background-color: #3C91E6;
+      color: #F9FAFB;
+      border: none;
+      border-radius: 10px;
+      cursor: pointer;
+      font-size: 0.9rem;
+      text-decoration: none;
+      transition: background-color 0.3s;
+    }
+    .btn-resume:hover {
+        background-color: #2F4858;
+        color: #C5E0D8;
+    }
+    .close-btn {
+      position: absolute;
+      top: 1rem;
+      right: 1rem;
+      background: transparent;
+      border: none;
+      font-size: 2rem;
+      color: #3C91E6;
+      cursor: pointer;
+    }
+    .close-btn:hover {
+      color: #2F4858;
+    }
+      </style>
+</head>
+<body>
+    <div class="resume-container">
+        <button class="close-btn" onclick="window.location.href='index.html'">&times;</button>
+            <h1>Paige Ballard</h1>
+            <h3>Front End Developer</h3>
+            <p>832-712-6710 | <a href="mailto:p.ballardhou@gmail.com">p.ballardhou@gmail.com</a> | Houston, TX 77018</p>
+            <div class="btn-bar">
+                <a class="btn-resume" href="Paige_Ballard_Resume.pdf" download>Download PDF</a>
+                </div>
+        <!-- <p>🌐 <a href="https://bold.pro/my/paige-ballard/584" target="_blank">View Profile</a></p> -->
+    
+        <div class="section">
+          <h2>Summary</h2>
+          <p>Detail-oriented professional with 10 years of experience in the tech industry, transitioning into front-end development. Strong user-first mindset and communication skills, complemented by hands-on training in HTML, CSS, JavaScript, and Git. Proven track record in managing cross-functional projects and implementing process improvements. Committed to leveraging technical skills to create engaging and accessible web applications.</p>
+        </div>
+    
+        <div class="section">
+          <h2>Experience</h2>
+    
+          <h3 class="job-title">Project Coordinator, WebPros</h3>
+          <p class="date-location">March 2020 – October 2023 | Houston, TX</p>
+          <ul>
+            <li>Managed multiple concurrent projects using Jira and Monday.com to ensure timely delivery.</li>
+            <li>Collaborated with project managers to update timelines and address blockers.</li>
+            <li>Maintained internal company wiki through Confluence to enhance knowledge sharing.</li>
+            <li>Utilized Git and SQL to update employee directory, team structures, and office locations.</li>
+          </ul>
+    
+          <h3 class="job-title">Event Coordinator, WebPros</h3>
+          <p class="date-location">February 2018 – March 2020 | Houston, TX</p>
+          <ul>
+            <li>Planned WebPros' annual conferences, including hotel scouting and vendor negotiations.</li>
+            <li>Coordinated legal contracts to ensure compliance and mitigate risks.</li>
+            <li>Managed travel logistics and budgets for employees and partners.</li>
+            <li>Worked with marketing on branding through event swag and booth design.</li>
+          </ul>
+    
+          <h3 class="job-title">Executive Assistant to the VP, Cpanel</h3>
+          <p class="date-location">November 2016 – February 2018 | Houston, TX</p>
+          <ul>
+            <li>Streamlined calendar and travel coordination for VP and department leads.</li>
+            <li>Conducted cost analyses to inform training investments.</li>
+            <li>Coordinated travel and events for visiting partners.</li>
+          </ul>
+    
+          <h3 class="job-title">Office Manager, Cpanel</h3>
+          <p class="date-location">May 2015 – November 2016 | Houston, TX</p>
+          <ul>
+            <li>Developed and maintained systems for mail handling and break room inventory.</li>
+            <li>Managed vendor relationships and budgets supporting 250 employees.</li>
+            <li>Oversaw procurement processes to ensure timely delivery.</li>
+          </ul>
+        </div>
+    
+        <div class="section">
+          <h2>Skills</h2>
+          <ul>
+            <li>JavaScript, Node.js, HTML/CSS</li>
+            <li>Version control with Git</li>
+            <li>Project management, Scrum, Agile</li>
+            <li>SQL and database management</li>
+            <li>Confluence, Jira, Monday.com</li>
+            <li>Effective communication and cross-team collaboration</li>
+          </ul>
+        </div>
+    
+        <div class="section">
+          <h2>Education & Training</h2>
+          <p>DigitalCrafts – Software Development Bootcamp</p>
+          <p>Nielsen Norman Group – UX Certificate</p>
+          <p>Scrum Alliance – Scrum Master</p>
+        </div>
+    
+      </div>
+
+</body>
+</html>

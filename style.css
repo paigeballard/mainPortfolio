@@ -184,11 +184,15 @@ ul {
     background-color: #1E2A38;
 }
 
-.contact {
+.contact, .email-link {
     margin: 1.5rem 1rem;
     padding: 20px;
     color: #C5E0D8;
     font-size: 16px;
+}
+
+.email-link:hover {
+    color: #1E2A38;
 }
 .contact-flex {
     display: flex;
